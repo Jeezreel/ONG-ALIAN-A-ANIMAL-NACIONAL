@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <title>Adoção - ONG ALIANÇA NACIONAL ANIMAL</title>
+         <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f4f8ff;
+        color: #333;
+    }
+
+    header {
+      background: #0a3d91;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo h1 {
+      font-size: 28px;
+    }
+
+    .logo span {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    nav a::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -4px;
+      left: 0;
+      background: white;
+      transition: 0.3s;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    main {
+      padding: 30px;
+    }
+
+    .tab-content {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.4s ease;
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      color: #0a3d91;
+      margin-bottom: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+
+  </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Animais para Adoção</h1>
+
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="adocao.html">Adoção</a>
+                <a href="ajudar.html">Como ajudar</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+
+            <h2>Optimus Prime</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLJYSIiM2yyjumdzG5ok-Ncghd_8ly6kGUw&s" width="250" alt="Ronaldinho">
+            <p>Idade: 3 meses</p>
+            <p>Vacinado e microchipado</p>
+
+            <hr>
+
+            <h2> Kanye west</h2>
+            <img src="data:image/jpeg;base64,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" widht="250" alt="Kayne west">
+            <p>idade: 1 ano</p>
+            <p>Raça: FRD</p>
+            <p>Vacinado, Castrado e microchipado</p>
+
+            <hr>
+
+
+            <h2>Lil Wayne</h2>
+            <img src="https://media.tenor.com/ackA8bq49x4AAAAe/cachorro-frio-frio.png" width="250" alt="Lil Wayne">
+            <p>Idade: 3 anos</p>
+            <p>Vacinado, Castrado e microchipado</p>
+
+            <hr>
+
+            <h2>Jay-z</h2>
+            <img src="data:image/jpeg;base64,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" width="250" alt="Jay-z">
+            <p>Idade: 4 anos</p>
+            <p>Macho</p>
+            <p>Raça: FRD</p>
+            <p>Vacinado, Castrado e microchipado</p>
+
+            <hr>
+
+            <h2>Rogerio chupetão</h2>
+            <img src="https://i.pinimg.com/236x/f3/6b/f1/f36bf1ea2b2ecc2970014d5408875488.jpg" width="250" alt="Rogerio chupetão">
+            <p>Idade: 1 aninho</p>
+            <p>Macho</p>
+            <p>Raça: FRD</p>
+            <p>Vacinado, Castrado e microchipado</p>
+
+            <hr>
+
+            <h2>Supla</h2>
+            <img src="https://i.pinimg.com/474x/56/c4/16/56c4166e85b997b960ecd62359e37c93.jpg" width="250" alt="Supla">
+            <p>Idade: 15 Anos</p>
+            <p>Macho</p>
+            <p>Vacina, Castrado e microchipado</p>
+
+            <hr>
+
+            <h2>igona</h2>
+            <img src="https://i.pinimg.com/236x/82/39/63/8239637a9a73a58285f219aaa363a5ad.jpg" width="250" alt="igona">
+            <p>Idade: 2,5 anos</p>
+            <p>Femea</p>
+            <p>Vacinada, castrada e microchipada</p>
+
+            <hr>
+
+            <h2>Megan fox</h2>
+            <img src="https://i.pinimg.com/736x/d4/f0/2e/d4f02e9c708128f0dfda85344f9a2d98.jpg" width="250" alt="Megan fox">
+            <p>Idade: 7,5</p>
+            <p>Femea</p>
+            <p> Raça: FRD</p>
+            <p>Vacinada, Castrada e microchipada</p>
+
+            <hr>
+
+            <h2>Kim Kardashian</h2>
+            <img src="https://static.poder360.com.br/2025/07/gato-meme2-1-848x477.png" width="250" alt="Kim Kardinshim">
+            <p>Idade 3 anos</p>
+            <p>Femea</p>
+            <p>Raça: FRD</p>
+            <p>Vacinada, Castrada e microchipada</p>
+
+            <hr>
+
+            <h2>Ronaldo</h2>
+            <img src="https://i.pinimg.com/236x/02/af/ac/02afac9a3b1b51819495d2b142c452c6.jpg" width="250" alt="Ronaldo">
+            <p>Idade 2 anos</p>
+            <p>Macho</p>
+            <p>Raça: FRD</p>
+            <P>Vacinado, Castrado e microchipado</P>
+
+            <hr>
+
+            <h2>Vampeta</h2>
+            <img src="https://i.pinimg.com/originals/1d/40/0e/1d400e79e924b844848049f3e52172b2.jpg" width="250" alt="Vampeta">
+            <p>Idade: 3 anos</p>
+            <p>Macho</p>
+            <p>Raça: FRD</p>
+            <p>Vacinado, castrado e microchipado</p>
+
+            
+        </main>
+    </body>
+</html>
